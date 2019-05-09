@@ -83,6 +83,11 @@ zip -q -r html.zip *
 zip -9 # 1-9 faster->better
 ```
 
+排除一些内容：
+```shell
+zip -r myprj.zip myprj -x "myprj/.git/*"
+```
+
 ### 问题解决
 
 CentOS7中命令找不到
